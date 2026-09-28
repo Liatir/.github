@@ -1,6 +1,12 @@
 # What is Liatir
 
-Liatir is a local-first bioinformatics desktop application. It runs bioinformatics tools (FastQC, Samtools, BCFtools, fastp, and more), custom plugins, local AI Models, and pipelines that connect steps together — all from a single visual interface, entirely on your own machine.
+**Liatir** is an **open source** local-first bioinformatics desktop application. It runs bioinformatics tools (FastQC, Samtools, BCFtools, fastp, and more), custom plugins, local AI Models, and pipelines that connect steps together — all from a single visual interface, entirely on your own machine.
+
+> Documentation: [liatir.com](https://liatir.com/)
+
+> Core Liatir repository: [Liatir/liatir-app](https://github.com/Liatir/liatir-app)
+>
+> ![License: GNU GPL v3](https://img.shields.io/badge/License-gpl3.0-blue.svg)
 
 ## Why local-first matters
 
@@ -19,6 +25,10 @@ Liatir ships its common bioinformatics programs — samtools, bcftools, seqkit, 
 
 ### Plugins
 A `.lia` plugin is a self-contained extension that adds custom analysis steps. Plugins can be written in Python, Node, or compiled to WebAssembly, and appear as normal tools in the UI and in pipelines. See the [Plugins](/plugins/overview) section to build one.
+
+> SDK Liatir repository: [Liatir/liatir-sdk](https://github.com/Liatir/liatir-sdk)
+>
+> ![License: Apache License 2.0](https://img.shields.io/badge/License-apache2.0-blue.svg)
 
 ### AI Models
 AI Models are signed local Runtime Boxes that Liatir installs and manages for you. The current AI Tool uses Geneformer, scGPT, or UCE for single-cell embeddings.
